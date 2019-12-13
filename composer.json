@@ -1,0 +1,27 @@
+{
+    "name": "tieume/lang",
+    "description": "Laravel language generate",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.10"
+    },
+    "authors": [
+        {
+            "name": "tieume",
+            "email": "anh_pc@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "tieume\\Lang\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "tieume\\Lang\\Provider\\LangServiceProvider"
+            ]
+        }
+    }
+}
